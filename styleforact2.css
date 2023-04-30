@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family
+	
+}
+	
+body 
+{
+	min-height: 670vh;
+	background: linear-gradient(#2b1055, #7597de);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* header Section */
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+header .logo
+{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 200px;
+	display: block;
+}
+
+header h1
+{
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 70px;
+	right: 380px;
+	
+}
+
+header h2
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 120px;
+	right: 385px;
+	font-size: 16px;
+}
+
+header .border
+{
+	position: absolute;
+	top: 160px;
+	right: 210px;
+	border: 4px solid transparent;
+	padding: 5px 10px;
+	width: 890px;
+	background-clip: padding-box;
+	background-image: linear-gradient(to right, #ff0000, #0000ff);
+}
+
+header ul
+{
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 200px;
+	right: 210px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li
+{
+	list-style: none;
+	margin-left: 100px;
+}
+
+header ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	border-radius: 20px;
+}
+
+header ul li a:hover,
+.active
+{
+	background: #fff;
+	color: #2b1055;
+	font-weight: bold;
+}
+
+/* Home Section */
+.home .borderlogo
+{
+	position: absolute;
+	top: 270px;
+	left: 330px;
+	border: 4px solid transparent;
+	padding: 5px 6px;
+	height: 360px;
+	background-clip: padding-box;
+	background-image: linear-gradient(to bottom, #ff0000, #0000ff);
+}
+
+.home .ig
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 273px;
+	left: 260px;
+}
+
+.home .fb
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 350px;
+	left: 260px;
+}
+
+.home .yt
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 425px;
+	left: 260px;
+}
+
+.home .li
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 505px;
+	left: 260px;
+}
+
+.home .gh
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 578px;
+	left: 260px;
+}
+
+.home .homepic
+{
+	position: absolute;
+	top: 290px;
+	left:425px;
+	width:240px;
+	height: 330px;
+	border-radius: 10px;
+}
+
+.home h1
+{
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 300px;
+	right: 320px;
+}
+
+.home h3
+{
+	font-family: 'Caveat', cursive;
+	color: #fff;
+	position: absolute;
+	top: 350px;
+	right: 350px;
+	font-size:25px;
+}
+
+.home .intro
+{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 400px;
+	right: 270px;
+	line-height: 1.9;
+}
+
+.home .arrow
+{
+	position: absolute;
+	top: 650px;
+	left: 730px;
+	height:70px;
+	width: 70px;
+}
+
+.home .jump
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 710px;
+	left: 728px;
+	font-size: 10px;
+	
+}
+
+/* About Me Section */
+.about .text-container
+{
+	position: absolute;
+	top: 850px;
+	left: 50px;
+	width: 93%;
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.about h1
+{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+.about .aboutbg
+{
+	position: absolute;
+	top: 1000px;
+	left: 50px;
+	width: 93%;
+	height: 500px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.about .text-container1
+{
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	width: 430px;
+	height: 500px;
+	padding: 20px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.about .text-container2
+{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	width: 450px;
+	height: 500px;
+	padding: 20px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+
+.about h2
+{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+.about p
+{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+.about .aboutpic
+{
+	margin-top: 50px;
+	height: 365px;
+	width: 330px;
+}
+
+.about .arrow
+{
+	position: absolute;
+	top: 1510px;
+	left: 730px;
+	height:70px;
+	width: 70px;
+}
+
+.about .jump
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 1570px;
+	left: 720px;
+	font-size: 10px;
+	
+}
+
+/* EDUCATION SECTION*/
+.education .text-container
+{
+	position: absolute;
+	top: 1710px;
+	left: 50px;
+	width: 93%;
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.education .aboutbg
+{
+	position: absolute;
+	top: 1860px;
+	left: 50px;
+	width: 93%;
+	height: 500px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.education .text-container1
+{
+	position: absolute;
+	top: 100px;
+	left: 30px;
+	width: 430px;
+	height: 500px;
+	padding: 20px;
+	text-align: center;
+	line-height: 1.5;
+	align-items: center;
+}
+
+.education .text-container2
+{
+	position: absolute;
+	top: 100px;
+	right: 30px;
+	width: 450px;
+	height: 500px;
+	padding: 20px;
+	text-align: center;
+	line-height: 1.5;
+	align-items: center;
+}
+
+.education .text-container3
+{
+	position: absolute;
+	top: 100px;
+	right: 483px;
+	width: 450px;
+	height: 500px;
+	padding: 20px;
+	text-align: center;
+	line-height: 1.5;
+	align-items: center;
+}
+
+.education h1
+{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+.education h2
+{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+.education p
+{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+.education .puplogo
+{
+	height: 100px;
+	width: 100px;
+}
+
+.education .arrow
+{
+	position: absolute;
+	top: 2370px;
+	left: 730px;
+	height:70px;
+	width: 70px;
+}
+
+.education .jump
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 2430px;
+	left: 710px;
+	font-size: 10px;
+	
+}
+
+/* ACHIEVEMENT SECTION*/
+.achievement .text-container
+{
+	position: absolute;
+	top: 2580px;
+	left: 50px;
+	width: 93%;
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.achievement .achievebg1
+{
+	position: absolute;
+	top: 2730px;
+	left: 50px;
+	width: 30%;
+	height: 500px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.achievement .achievebg2
+{
+	position: absolute;
+	top: 2730px;
+	left: 530px;
+	width: 30%;
+	height: 500px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.achievement .achievebg3
+{
+	position: absolute;
+	top: 2730px;
+	right: 50px;
+	width: 30%;
+	height: 500px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.achievement .text-container1
+{
+	position: absolute;
+	top: 10px;
+	width: 430px;
+	height: 500px;
+	padding: 20px;
+	text-align: center;
+	line-height: 1.5;
+	align-items: center;
+}
+
+.achievement .text-container2
+{
+	position: absolute;
+	top: 10px;
+	width: 430px;
+	height: 500px;
+	padding: 20px;
+	text-align: center;
+	line-height: 1.5;
+	align-items: center;
+}
+
+.achievement .text-container3
+{
+	position: absolute;
+	top: 10px;
+	width: 430px;
+	height: 500px;
+	padding: 20px;
+	text-align: center;
+	line-height: 1.5;
+	align-items: center;
+}
+
+.achievement h1
+{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+.achievement h2
+{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+.achievement p
+{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+.achievement ul
+{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+.achievement .arrow
+{
+	position: absolute;
+	top: 3240px;
+	left: 730px;
+	height:70px;
+	width: 70px;
+}
+
+.achievement .jump
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 3300px;
+	left: 730px;
+	font-size: 10px;
+	
+}
+
+/* SKILLS SECTION*/
+.skills .text-container
+{
+	position: absolute;
+	top: 3440px;
+	left: 50px;
+	width: 93%;
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.skills .skillsbg1
+{
+	position: absolute;
+	top: 3590px;
+	left: 50px;
+	width: 60%;
+	height: 500px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.skills .skillsbg3
+{
+	position: absolute;
+	top: 3590px;
+	right: 50px;
+	width: 30%;
+	height: 500px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+	
+}	
+
+.skills .skill1
+{
+	position: absolute;
+	top: 106px;
+	left: 83px;
+	height:300px;
+	width: 240px;
+	border-radius: 10px;
+}
+
+.skills .skill2
+{
+	position: absolute;
+	top: 106px;
+	left: 335px;
+	height:300px;
+	width: 240px;	
+	border-radius: 10px;
+}
+
+.skills .skill3
+{
+	position: absolute;
+	top: 106px;
+	right: 83px;
+	height:300px;
+	width: 240px;
+	border-radius: 10px;
+}
+
+.skills h1
+{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+.skills h2
+{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+.skills p
+{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+.skills .p1
+{
+	font-family: 'Caveat', cursive;
+	color: black;
+	font-size: 25px;
+}
+
+.skills .arrow
+{
+	position: absolute;
+	top: 4100px;
+	left: 730px;
+	height:70px;
+	width: 70px;
+}
+
+.skills .jump
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 4160px;
+	left: 725px;
+	font-size: 10px;
+	
+}
+
+
+/* Contact Section */
+.contact .contactme
+{
+	position: absolute;
+	top: 4300px;
+	left: 0px;
+	width: 100%;
+}
+
+.contact .text-container
+{
+	position: absolute;
+	top: 4800px;
+	left: 50px;
+	width: 93%;
+	padding: 30px;
+	background-image: linear-gradient(to right, #fff, #0000ff);
+	text-align: center;
+	border-radius: 10px;
+}
+
+.contact h1
+{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+.contact h2
+{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+.contact p
+{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+.contact .contactbg1
+{
+	position: absolute;
+	top:  4975px;
+	left: 50px;
+	width: 15%;
+	height: 250px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #fff);
+	text-align: center;
+	align-items:center;
+	border-radius: 10px;
+}
+
+.contact .contactbg2
+{
+	position: absolute;
+	top:  4975px;
+	left: 300px;
+	width: 15%;
+	height: 250px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #fff);
+	text-align: center;
+	align-items:center;
+	border-radius: 10px;
+}
+
+.contact .contactbg3
+{
+	position: absolute;
+	top: 4975px;
+	left: 550px;
+	width: 15%;
+	height: 250px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #fff);
+	text-align: center;
+	align-items:center;
+	border-radius: 10px;
+}
+
+.contact .contactbg4
+{
+	position: absolute;
+	top:  4975px;
+	left: 800px;
+	width: 15%;
+	height: 250px;
+	padding: 20px;
+	background-image: linear-gradient(to right, #fff, #fff);
+	text-align: center;
+	align-items:center;
+	border-radius: 10px;
+}
+
+.contact .contactbg5
+{
+	position: absolute;
+	top:  4975px;
+	left: 1050px;
+	width:  27%;
+	height: 250px;
+	padding: 10px;
+	background-image: linear-gradient(to right, #fff, #fff);
+	text-align: center;
+	align-items:center;
+	border-radius: 10px;
+}
+
+.contact .addressicon
+{
+	height:100px;
+	width:100px;
+}
+
+.contact .phoneicon
+{
+	height: 100px;
+	width: 100px;
+}
+
+.contact .emailicon
+{
+	height:100px;
+	width: 100px;
+}
+
+.contact .websiteicon
+{
+	height: 100px;
+	width: 100px;
+}
+
+
+
+
+/* footer Section */
+footer .borderfooter
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 5px 10px;
+	width: 100%;
+	background-clip: padding-box;
+	background-image: linear-gradient(to right, #ff0000, #0000ff);
+}
+
+footer h4
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	text-align: center;
+}
