@@ -812,6 +812,27 @@ header ul li a:hover,
 	width: 100px;
 }
 
+.contact .arrow
+{
+	position: absolute;
+	top: 5285px;
+	left: 730px;
+	height:70px;
+	width: 70px;
+	transform: rotate(180deg);
+}
+
+.contact .jump
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 5350px;
+	left: 725px;
+	font-size: 10px;
+	
+}
+
 /* footer Section */
 footer .borderfooter
 {
