@@ -13,7 +13,7 @@
 	
 body 
 {
-	min-height: 670vh;
+	min-height: 690vh;
 	background: linear-gradient(#2b1055, #7597de);
 	display: flex;
 	align-items: center;
@@ -818,7 +818,7 @@ footer .borderfooter
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	padding: 5px 10px;
+	padding: 10px 10px;
 	width: 100%;
 	background-clip: padding-box;
 	background-image: linear-gradient(to right, #ff0000, #0000ff);
